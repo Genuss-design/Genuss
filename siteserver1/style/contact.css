@@ -1,0 +1,294 @@
+body {
+  overflow-x: hidden;
+  background-color: red;
+  cursor: default;
+  user-select: none;
+  background-color: rgba(255, 189, 244, 0.3);
+}
+
+.header-info{
+	background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.header-info img{
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.header-info p{
+	color: #fff;
+	font-size: 16px;
+	font-family: sans-serif;
+	margin-top: 17px;
+	margin-right: 50px;
+	margin-left: 10px;
+}
+
+.header-info .sec-num{
+	margin-left: -20px;
+}
+
+.header-info p a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation{
+	background-color: #0099cc;
+}
+
+.navigation .logo{
+  	width: 250px;
+  	height: 75px;
+  	margin-top: 20px;
+  	margin-left: 30%;
+}
+
+.navigation .menu li{
+	list-style: none;
+	display: inline-block;
+	font-size: 28px;
+	padding: 30px;
+}
+
+.navigation .menu li a{
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navigation .menu li a:hover{
+	color: blue;
+	transition: 0.5s;
+	text-decoration: underline;
+}
+
+.navigation .menu li .active{
+	color: blue;
+	font-style: italic;
+}
+
+.navigation span{
+	color: gray;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 28px;
+	padding: 30px;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown span a{
+	color: white;
+}
+
+.dropdown span a:hover{
+	color: blue;
+	transition: 0.5s;
+}	
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #0099cc;
+	min-width: 250px;
+	z-index: 1;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+	color: white;
+	font-size: 24px;
+}
+			
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+			
+.dropdown:hover .dropdown-content a{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.dropdown .dropdown-content a{
+	text-align: left;
+	color: white;
+}		
+.dropdown-content a:hover{
+	transition: 0.3s;
+	font-size: 23px;
+	color: blue;
+	font-weight: bold;
+}
+
+.contact-box1{
+	width: 300px;
+	height: 400px;
+	text-align: center;
+	border: 2px solid #0099cc;
+	margin-left: 18%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	background-color: rgba(255, 189, 244, 0.3);
+	transition: 0.5s;
+}
+
+.contact-box2{
+	width: 300px;
+	height: 400px;
+	text-align: center;
+	border: 2px solid #0099cc;
+	margin-left: 18%;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	background-color: rgba(255, 189, 244, 0.3);
+	transition: 0.5s;
+}
+
+.contact-box1:hover, .contact-box2:hover{
+	width: 350px;
+	height: 425px;
+	transition: 0.5s;
+	margin-left: 15%;
+	cursor: crosshair;
+	text-decoration: none;
+}
+
+.map-title{
+	margin-top: 50px;
+	text-align: center;
+	margin-left: -40px;
+	font-size: 36px;
+	color: #0099cc;
+	font-weight: bold;
+}
+
+.map-subtitle{
+	margin-top: 10px;
+	text-align: center;
+	color: #0099cc;
+	font-size: 25px;
+}
+
+.map{
+	margin-top: 40px;
+	margin-bottom: 100px;
+	transition: 2s;
+}
+
+.map:hover{
+	height: 850px;
+	width: 1000px;
+	margin-left: -100%;
+	transition: 3s;
+}
+
+.contact-icons{
+	width: 90px;
+	margin-top: 30px;
+}
+
+.contact-box-title{
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-size: 30px;
+	color: #0099cc;
+	font-weight: bold;
+}
+
+.contact-box-info{
+	font-size: 23px;
+	color: #0099cc;
+}
+
+.contact-box-logo{
+	width: 50px;
+	margin-top: 15px;
+}
+
+.a a{
+	text-decoration: none;
+}
+
+.footer{
+	width: 100%;
+	height: 150px;
+	background-color: #bfbbae;
+	border-top: 1px dashed black;
+}
+
+.footer .footer-name h3{
+	text-align: center;
+	margin-top: 30px;
+	color: #0099cc;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.footer h3{
+	text-align: center;
+	margin-top: 60px;
+	color: #0099cc;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.footer .work-hrs-h3{
+	margin-top: 50px;
+}
+
+.footer .work-hrs{
+	text-align: left;
+	font-size: 22px;
+}
+
+.footer .footer-adress{
+	margin-top: 15px;
+	font-size: 21px;
+	margin-left: 10px;
+}
+
+.footer .footer-num{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10px;
+	font-size: 21px;
+}
+
+.footer h5{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 65px;
+	text-decoration: none;
+}
+
+.footer .creator-logo{
+	width: 50px;
+	height: 50px;
+	margin-left: 40%;
+	margin-top: 5%;
+}
+
+.footer .creator:hover{
+	text-decoration: none;
+}
+
+.footer .col-sm-2 h5{
+	margin-bottom: 0;
+}
+
+.footer .work-hrs p{
+	margin-bottom: 0;
+}
+
+.footer .unvisibly{
+	color: #bfbbae;
+	margin: 0px;
+	font-size: 10px;
+}
